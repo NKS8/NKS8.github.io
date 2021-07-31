@@ -1,147 +1,50 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Design Challenge: Weather analysis of Latitude vs Temperature, Humidity, Cloudiness, and Windspeed.
 
-## Background
-
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
-
-![Images/landingResize.png](Images/landingResize.png)
-
-### Before You Begin
-
-1. Create a new repository for this project called `Web-Design-Challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, add your **html** files, as well as your **static** folder. Your `index.html` should be the landing page that the user first sees. DO NOT keep your files inside the Starter Files folder. Copy them out and put them directly in your repository. `index.html` must be at the top level of your repository (not in any subdirectory)
-
-4. Push the above changes to GitHub or GitLab.
-
-5. Deploy to GitHub Pages.
-
-## Latitude - Latitude Analysis Dashboard with Attitude
-
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
-
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
-
-### Website Requirements
-
-For reference, see the ["Screenshots" section](#screenshots) below.
-
-The website must consist of 7 pages total, including:
-
-* A [landing page](#landing-page) containing:
-  * An explanation of the project.
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four [visualization pages](#visualization-pages), each with:
-  * A descriptive title and heading tag.
-  * The plot/visualization itself for the selected comparison.
-  * A paragraph describing the plot and its significance.
-* A ["Comparisons" page](#comparisons-page) that:
-  * Contains all of the visualizations on the same page so we can easily visually compare them.
-  * Uses a Bootstrap grid for the visualizations.
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
-* A ["Data" page](#data-page) that:
-  * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
-
-The website must, at the top of every page, have a navigation menu that:
-
-* Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-* Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-* Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
-
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-### Considerations
-
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
-* You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a Bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
-
-### Screenshots
-
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
-
-#### <a id="landing-page"></a>Landing page
-
-Large screen:
-
-![Landing page large screen](Images/landingResize.png)
-
-Small screen:
-
-![Landing page small screen](Images/landing-sm.png)
-￼
-
-#### <a id="comparisons-page"></a>Comparisons page
-
-Large screen:
-
-![comparison page large screen](Images/comparison-lg.png)
-
-Small screen:
-
-![comparison page small screen](Images/comparison-sm.png)
-
-#### <a id="data-page"></a>Data page
-
-Large screen:
-
-![data page large screen](Images/data-lg.png)
+### This project builds website, and html, CSS, Bootstrap, and min.js ares used to create properly styled, responsive, and navigation activated website.  
+1. HTML
+2. CSS
+3. Bootstrap
+4. JScript
+5. JQuery
+are used to make this website responsive, and navigatation is activated by JQuery, min.js, and bootstrap.min. 
 
 
-Small screen:
+### Page 1. (Landing page)
+![image](https://user-images.githubusercontent.com/67448948/127584143-7f6c441e-8a55-45cf-a2b8-6303c3378da7.png)
 
-![data page small screen](Images/data-sm.png)
 
-#### <a id="visualization-pages"></a>Visualization pages
+### Page 2. (Latitude vs Temperature) 
+![image](https://user-images.githubusercontent.com/67448948/127584209-68371b31-1875-4920-bcc9-e67104d2a9e8.png)
 
-You'll build four of these, one for each visualization. Here's an example of one:
+### Page 3. (Latitude vs Humidity) 
+![image](https://user-images.githubusercontent.com/67448948/127584245-bd13f84d-50f8-4c14-b97c-fba0f3b51c94.png)
 
-Large screen:
+### Page 4. (Latitude vs Cloudiness) 
+![image](https://user-images.githubusercontent.com/67448948/127584313-4376b4bd-e36c-4428-93b3-e27b042bb2b0.png)
 
-![visualize page large screen](Images/visualize-lg.png)
+### Page 5. (Latitude vs Wind(mph)) 
+![image](https://user-images.githubusercontent.com/67448948/127584419-ed8b376a-9fa5-49fa-befd-e923c665a74b.png)
 
-Small screen:
+### Page 6. (Comparison of Temperature, Humidity, Cloudiness, and Windspeed) 
 
-![visualize page small screen](Images/visualize-sm.png)
+![image](https://user-images.githubusercontent.com/67448948/127584559-b018137d-7d6f-4eaa-bcba-ecc0ac015056.png)
 
-#### <a id="navigation-menu"></a>Navigation menu
+### Page 7. (Data) 
+![image](https://user-images.githubusercontent.com/67448948/127584630-ad9ca300-d1da-4d1e-9f13-aa3a6b11fcab.png)
 
-Large screen:
-![nav menu large screen](Images/nav-lg.png)
+## Visualization and Responsiveness 
 
-Small screen:
-![nav menu small screen](Images/nav-sm.png)
+When screen shrinks it stacks girds. Below schreen shots shows the responiveness, and responsivess applies thoughout entire webpages. 
 
-## Rubric
+a. 
+![image](https://user-images.githubusercontent.com/67448948/127585576-9ad965f1-1ed5-453c-abf4-a3277cf98ce0.png)
+b. 
+![image](https://user-images.githubusercontent.com/67448948/127585610-ee205c7e-6e68-428b-ae0b-ed589390b7c1.png)
+c. 
+![image](https://user-images.githubusercontent.com/67448948/127586214-dcd36fd1-39c8-4403-acf9-ce48a14f4879.png)
+d. 
+![image](https://user-images.githubusercontent.com/67448948/127586274-52a15849-1beb-4bab-bb64-7184b44bc81d.png)
 
-[Unit 11 Rubric - Web Design Homework - Web Visualization Dashboard](https://docs.google.com/document/d/16RJehl9qVOxdj7o7hUwvdlsoyrA_-kaoB8CGwr9LX_Y/edit?usp=sharing)
+ Above schreenshots show the responiveness of website by stacking grid containers, and responsivess applies thoughout entire webpages. 
 
-- - -
 
-## References
-
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
