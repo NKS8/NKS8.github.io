@@ -1,6 +1,7 @@
 # Web Design Challenge: Weather analysis of Latitude vs Temperature, Humidity, Cloudiness, and Windspeed.
 
-### This project builds website, and html, CSS, Bootstrap, and min.js are used to create properly styled, responsive, and navigation activated website.  
+### This project builds responsive website. HTML, CSS, Bootstrap, and min.js are used to create properly styled, responsiveness added, and navigation activated website.  
+Technologies:
 1. HTML
 2. CSS
 3. Bootstrap
@@ -34,7 +35,7 @@ are used to make this website responsive, and navigation is activated by JQuery,
 
 ## Visualization and Responsiveness 
 
-When screen shrinks it stacks girds. Below screen shots illustrate the responiveness, and responsiveness applies throughout entire webpages. 
+When screen shrinks it stacks girds. Below screen shots illustrate the responiveness, and this functionality applies throughout webpages. 
 
 a. 
 ![image](https://user-images.githubusercontent.com/67448948/127585576-9ad965f1-1ed5-453c-abf4-a3277cf98ce0.png)
@@ -45,6 +46,6 @@ c.
 d. 
 ![image](https://user-images.githubusercontent.com/67448948/127586274-52a15849-1beb-4bab-bb64-7184b44bc81d.png)
 
- Above screenshots show the responsiveness of website by stacking grid containers, and responsiveness applies throughout entire webpages. 
+ Above screenshots show the responsiveness of website by stacking grid containers, and responsiveness applies throughout webpages. 
 
 
