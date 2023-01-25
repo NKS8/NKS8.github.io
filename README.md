@@ -35,7 +35,7 @@ are used to make this website responsive, and navigation is activated by JQuery,
 
 ## Visualization and Responsiveness 
 
-When screen shrinks it stacks girds. Below screen shots illustrate the responiveness, and this functionality applies throughout webpages. 
+When screen shrinks it stacks grids. Below screen shots illustrate the responiveness, and this functionality applies throughout webpages. 
 
 a. 
 ![image](https://user-images.githubusercontent.com/67448948/127585576-9ad965f1-1ed5-453c-abf4-a3277cf98ce0.png)
